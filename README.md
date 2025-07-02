@@ -1,2 +1,3 @@
 # SMeRL
-Meta Reinforcement Learning tests based on Sinergym environments
+
+Meta Reinforcement Learning tests based on Sinergym environments.
