@@ -1,0 +1,377 @@
+************************************* Invoked: mié. jul. 2 15:15:56 2025
+[0] Arguments: ./EnergyPlus-24.1.0-9d7789a3ac-Linux-Ubuntu22.04-x86_64.run
+[0] Operations sanity check succeeded.
+[2] Using metadata cache from "/root/.cache/qt-installer-framework/505bcc69-b128-3c32-9db2-8bf78f29f483"
+[2] Found 0 cached items.
+[2] Language: es-ES
+[1415] Obteniendo la información de la última actualización...
+[1419] Cargando scripts de componentes...
+[4604] Warning: Only C and default locale supported with the posix collation implementation
+[4604] Warning: Only C and default locale supported with the posix collation implementation
+[4604] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[4604] Warning: Numeric mode unsupported in the posix collation implementation
+[7667] Warning: Only C and default locale supported with the posix collation implementation
+[7667] Warning: Only C and default locale supported with the posix collation implementation
+[7667] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[7667] Warning: Numeric mode unsupported in the posix collation implementation
+[8247] Warning: Only C and default locale supported with the posix collation implementation
+[8247] Warning: Only C and default locale supported with the posix collation implementation
+[8247] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[8247] Warning: Numeric mode unsupported in the posix collation implementation
+[8250] Warning: Only C and default locale supported with the posix collation implementation
+[8250] Warning: Only C and default locale supported with the posix collation implementation
+[8250] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[8250] Warning: Numeric mode unsupported in the posix collation implementation
+[9059] Warning: Only C and default locale supported with the posix collation implementation
+[9059] Warning: Only C and default locale supported with the posix collation implementation
+[9059] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[9059] Warning: Numeric mode unsupported in the posix collation implementation
+[13614] Warning: Only C and default locale supported with the posix collation implementation
+[13614] Warning: Only C and default locale supported with the posix collation implementation
+[13614] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[13614] Warning: Numeric mode unsupported in the posix collation implementation
+[15674] Warning: Only C and default locale supported with the posix collation implementation
+[15674] Warning: Only C and default locale supported with the posix collation implementation
+[15674] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[15674] Warning: Numeric mode unsupported in the posix collation implementation
+[16580] Warning: Only C and default locale supported with the posix collation implementation
+[16580] Warning: Only C and default locale supported with the posix collation implementation
+[16580] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[16580] Warning: Numeric mode unsupported in the posix collation implementation
+[24311] Warning: Only C and default locale supported with the posix collation implementation
+[24311] Warning: Only C and default locale supported with the posix collation implementation
+[24311] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[24311] Warning: Numeric mode unsupported in the posix collation implementation
+[24315] Warning: Only C and default locale supported with the posix collation implementation
+[24315] Warning: Only C and default locale supported with the posix collation implementation
+[24315] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[24315] Warning: Numeric mode unsupported in the posix collation implementation
+[25886] Warning: Only C and default locale supported with the posix collation implementation
+[25886] Warning: Only C and default locale supported with the posix collation implementation
+[25886] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[25886] Warning: Numeric mode unsupported in the posix collation implementation
+[27470] Warning: Only C and default locale supported with the posix collation implementation
+[27471] Warning: Only C and default locale supported with the posix collation implementation
+[27471] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[27471] Warning: Numeric mode unsupported in the posix collation implementation
+[28365] Warning: Only C and default locale supported with the posix collation implementation
+[28365] Warning: Only C and default locale supported with the posix collation implementation
+[28365] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[28365] Warning: Numeric mode unsupported in the posix collation implementation
+[29266] Warning: Only C and default locale supported with the posix collation implementation
+[29266] Warning: Only C and default locale supported with the posix collation implementation
+[29266] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[29266] Warning: Numeric mode unsupported in the posix collation implementation
+[30980] Warning: Only C and default locale supported with the posix collation implementation
+[30980] Warning: Only C and default locale supported with the posix collation implementation
+[30980] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[30980] Warning: Numeric mode unsupported in the posix collation implementation
+[31917] Warning: Only C and default locale supported with the posix collation implementation
+[31917] Warning: Only C and default locale supported with the posix collation implementation
+[31917] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[31917] Warning: Numeric mode unsupported in the posix collation implementation
+[33418] Warning: Only C and default locale supported with the posix collation implementation
+[33418] Warning: Only C and default locale supported with the posix collation implementation
+[33418] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[33418] Warning: Numeric mode unsupported in the posix collation implementation
+[39779] Cargando scripts de componentes...
+[41855] Componentes seleccionados sin dependencias:
+CPPAPI 
+Symlinks 
+Datasets 
+Documentation 
+ExampleFiles 
+Licenses 
+Unspecified 
+WeatherData
+[41856] Installation space required: "912.86 MB" Temporary space required: "256.00 MB" Local repository size: "0.00 bytes"
+[41861] Cache and install directories are on the same volume. Volume mount point: "/" Free space available: "27.41 GB"
+[43112] backup  operation: Mkdir
+[43112] 	- arguments: /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43112] Done
+[43112] perform  operation: Mkdir
+[43112] 	- arguments: /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43112] Done
+[43112] Preparando la instalación...
+[43112] Install size: 8 components
+[43122] Preparándose para desempaquetar componentes...
+[43124] backup CPPAPI concurrent operation: Extract
+[43124] 	- arguments: installer://CPPAPI/24.1.0lib.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Symlinks concurrent operation: Extract
+[43124] 	- arguments: installer://Symlinks/24.1.0content.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Datasets concurrent operation: Extract
+[43124] 	- arguments: installer://Datasets/24.1.0DataSets.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Datasets concurrent operation: Extract
+[43124] 	- arguments: installer://Datasets/24.1.0MacroDataSets.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Documentation concurrent operation: Extract
+[43124] 	- arguments: installer://Documentation/24.1.0Documentation.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup ExampleFiles concurrent operation: Extract
+[43124] 	- arguments: installer://ExampleFiles/24.1.0ExampleFiles.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Unspecified concurrent operation: Extract
+[43124] 	- arguments: installer://Unspecified/24.1.0include.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Unspecified concurrent operation: Extract
+[43124] 	- arguments: installer://Unspecified/24.1.0content.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Licenses concurrent operation: Extract
+[43124] 	- arguments: installer://Licenses/24.1.0content.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Unspecified concurrent operation: Extract
+[43124] 	- arguments: installer://Unspecified/24.1.0PostProcess.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Unspecified concurrent operation: Extract
+[43124] 	- arguments: installer://Unspecified/24.1.0pyenergyplus.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Unspecified concurrent operation: Extract
+[43124] 	- arguments: installer://Unspecified/24.1.0python_standard_lib.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Unspecified concurrent operation: Extract
+[43124] 	- arguments: installer://Unspecified/24.1.0PreProcess.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43124] backup Unspecified concurrent operation: Extract
+[43124] 	- arguments: installer://Unspecified/24.1.0workflows.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43124] Started
+[43126] backup WeatherData concurrent operation: Extract
+[43126] 	- arguments: installer://WeatherData/24.1.0WeatherData.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[43126] Started
+[44104] Desempaquetando componentes...
+[44105] perform Documentation concurrent operation: Extract
+[44105] 	- arguments: installer://Documentation/24.1.0Documentation.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Unspecified concurrent operation: Extract
+[44105] 	- arguments: installer://Unspecified/24.1.0content.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Unspecified concurrent operation: Extract
+[44105] 	- arguments: installer://Unspecified/24.1.0python_standard_lib.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Unspecified concurrent operation: Extract
+[44105] 	- arguments: installer://Unspecified/24.1.0PreProcess.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform ExampleFiles concurrent operation: Extract
+[44105] 	- arguments: installer://ExampleFiles/24.1.0ExampleFiles.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Symlinks concurrent operation: Extract
+[44105] 	- arguments: installer://Symlinks/24.1.0content.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Unspecified concurrent operation: Extract
+[44105] 	- arguments: installer://Unspecified/24.1.0PostProcess.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Datasets concurrent operation: Extract
+[44105] 	- arguments: installer://Datasets/24.1.0DataSets.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform WeatherData concurrent operation: Extract
+[44105] 	- arguments: installer://WeatherData/24.1.0WeatherData.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Datasets concurrent operation: Extract
+[44105] 	- arguments: installer://Datasets/24.1.0MacroDataSets.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Unspecified concurrent operation: Extract
+[44105] 	- arguments: installer://Unspecified/24.1.0pyenergyplus.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Unspecified concurrent operation: Extract
+[44105] 	- arguments: installer://Unspecified/24.1.0workflows.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Unspecified concurrent operation: Extract
+[44105] 	- arguments: installer://Unspecified/24.1.0include.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform CPPAPI concurrent operation: Extract
+[44105] 	- arguments: installer://CPPAPI/24.1.0lib.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[44105] perform Licenses concurrent operation: Extract
+[44105] 	- arguments: installer://Licenses/24.1.0content.7z, /home/antonio/code/SMeRL/EnergyPlus-24-1-0
+[44105] Started
+[46865] Instalando componente Create Symlinks - requires admin
+[46865] "Execute" as admin: true
+[46865] backup Symlinks operation: Execute
+[46865] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/Basement, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Basement
+[46865] Done
+[46865] perform Symlinks operation: Execute
+[46865] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/Basement, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Basement
+[46867] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/Basement /usr/local/bin
+[46880] Done
+[46881] "Execute" as admin: true
+[46881] backup Symlinks operation: Execute
+[46881] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/BasementGHT.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/BasementGHT.idd
+[46881] Done
+[46881] perform Symlinks operation: Execute
+[46881] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/BasementGHT.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/BasementGHT.idd
+[46882] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/BasementGHT.idd /usr/local/bin
+[46884] Done
+[46884] "Execute" as admin: true
+[46884] backup Symlinks operation: Execute
+[46884] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/convertESOMTRpgm/convertESOMTR, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/convertESOMTR
+[46884] Done
+[46884] perform Symlinks operation: Execute
+[46884] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/convertESOMTRpgm/convertESOMTR, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/convertESOMTR
+[46885] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/convertESOMTRpgm/convertESOMTR /usr/local/bin
+[46886] Done
+[46887] "Execute" as admin: true
+[46887] backup Symlinks operation: Execute
+[46887] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/energyplus, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/energyplus
+[46887] Done
+[46887] perform Symlinks operation: Execute
+[46887] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/energyplus, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/energyplus
+[46887] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/energyplus /usr/local/bin
+[46889] Done
+[46889] "Execute" as admin: true
+[46889] backup Symlinks operation: Execute
+[46889] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/Energy+.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Energy+.idd
+[46889] Done
+[46889] perform Symlinks operation: Execute
+[46889] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/Energy+.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Energy+.idd
+[46890] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/Energy+.idd /usr/local/bin
+[46891] Done
+[46891] "Execute" as admin: true
+[46891] backup Symlinks operation: Execute
+[46891] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/Energy+.schema.epJSON, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Energy+.schema.epJSON
+[46891] Done
+[46891] perform Symlinks operation: Execute
+[46891] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/Energy+.schema.epJSON, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Energy+.schema.epJSON
+[46892] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/Energy+.schema.epJSON /usr/local/bin
+[46894] Done
+[46894] "Execute" as admin: true
+[46894] backup Symlinks operation: Execute
+[46894] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/EPMacro, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/EPMacro
+[46894] Done
+[46894] perform Symlinks operation: Execute
+[46894] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/EPMacro, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/EPMacro
+[46895] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/EPMacro /usr/local/bin
+[46897] Done
+[46897] "Execute" as admin: true
+[46897] backup Symlinks operation: Execute
+[46897] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/ExpandObjects, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ExpandObjects
+[46897] Done
+[46897] perform Symlinks operation: Execute
+[46897] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/ExpandObjects, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ExpandObjects
+[46898] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/ExpandObjects /usr/local/bin
+[46899] Done
+[46899] "Execute" as admin: true
+[46899] backup Symlinks operation: Execute
+[46899] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/HVAC-Diagram, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/HVAC-Diagram
+[46899] Done
+[46899] perform Symlinks operation: Execute
+[46899] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/HVAC-Diagram, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/HVAC-Diagram
+[46900] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/HVAC-Diagram /usr/local/bin
+[46901] Done
+[46901] "Execute" as admin: true
+[46901] backup Symlinks operation: Execute
+[46901] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/ParametricPreprocessor/ParametricPreprocessor, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ParametricPreprocessor
+[46901] Done
+[46901] perform Symlinks operation: Execute
+[46901] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/ParametricPreprocessor/ParametricPreprocessor, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ParametricPreprocessor
+[46902] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/ParametricPreprocessor/ParametricPreprocessor /usr/local/bin
+[46903] Done
+[46903] "Execute" as admin: true
+[46903] backup Symlinks operation: Execute
+[46903] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/ReadVarsESO, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ReadVarsESO
+[46903] Done
+[46904] perform Symlinks operation: Execute
+[46904] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/ReadVarsESO, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/ReadVarsESO
+[46904] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/ReadVarsESO /usr/local/bin
+[46906] Done
+[46906] "Execute" as admin: true
+[46906] backup Symlinks operation: Execute
+[46906] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/runenergyplus, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runenergyplus
+[46906] Done
+[46906] perform Symlinks operation: Execute
+[46906] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/runenergyplus, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runenergyplus
+[46906] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/runenergyplus /usr/local/bin
+[46908] Done
+[46908] "Execute" as admin: true
+[46908] backup Symlinks operation: Execute
+[46908] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/runepmacro, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runepmacro
+[46908] Done
+[46908] perform Symlinks operation: Execute
+[46908] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/runepmacro, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runepmacro
+[46909] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/runepmacro /usr/local/bin
+[46910] Done
+[46910] "Execute" as admin: true
+[46910] backup Symlinks operation: Execute
+[46910] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/runreadvars, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runreadvars
+[46910] Done
+[46910] perform Symlinks operation: Execute
+[46910] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/runreadvars, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/runreadvars
+[46911] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/runreadvars /usr/local/bin
+[46912] Done
+[46912] "Execute" as admin: true
+[46912] backup Symlinks operation: Execute
+[46912] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/Slab, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Slab
+[46912] Done
+[46912] perform Symlinks operation: Execute
+[46912] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/Slab, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/Slab
+[46913] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/Slab /usr/local/bin
+[46914] Done
+[46915] "Execute" as admin: true
+[46915] backup Symlinks operation: Execute
+[46915] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/SlabGHT.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/SlabGHT.idd
+[46915] Done
+[46915] perform Symlinks operation: Execute
+[46915] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/SlabGHT.idd, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/SlabGHT.idd
+[46915] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/GrndTempCalc/SlabGHT.idd /usr/local/bin
+[46917] Done
+[46917] "Execute" as admin: true
+[46917] backup Symlinks operation: Execute
+[46917] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/energyplus, /usr/local/bin/EnergyPlus, UNDOEXECUTE, rm, /usr/local/bin/EnergyPlus
+[46917] Done
+[46917] perform Symlinks operation: Execute
+[46917] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/energyplus, /usr/local/bin/EnergyPlus, UNDOEXECUTE, rm, /usr/local/bin/EnergyPlus
+[46917] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/energyplus /usr/local/bin/EnergyPlus
+[46919] Done
+[46919] "Execute" as admin: true
+[46919] backup Symlinks operation: Execute
+[46919] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/EP-Compare/EP-Compare, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/EP-Compare
+[46919] Done
+[46919] perform Symlinks operation: Execute
+[46919] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/EP-Compare/EP-Compare, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/EP-Compare
+[46920] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PostProcess/EP-Compare/EP-Compare /usr/local/bin
+[46921] Done
+[46921] "Execute" as admin: true
+[46921] backup Symlinks operation: Execute
+[46921] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/IDFVersionUpdater/IDFVersionUpdater, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/IDFVersionUpdater
+[46921] Done
+[46921] perform Symlinks operation: Execute
+[46921] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/IDFVersionUpdater/IDFVersionUpdater, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/IDFVersionUpdater
+[46922] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/IDFVersionUpdater/IDFVersionUpdater /usr/local/bin
+[46923] Done
+[46923] "Execute" as admin: true
+[46923] backup Symlinks operation: Execute
+[46923] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/FMUParser/parser, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/parser
+[46923] Done
+[46923] perform Symlinks operation: Execute
+[46923] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/FMUParser/parser, /usr/local/bin, UNDOEXECUTE, rm, /usr/local/bin/parser
+[46924] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/PreProcess/FMUParser/parser /usr/local/bin
+[46925] Done
+[46925] "Execute" as admin: true
+[46925] backup Symlinks operation: Execute
+[46925] 	- arguments: mkdir, -p, /usr/local/share/man/man1
+[46925] Done
+[46925] perform Symlinks operation: Execute
+[46925] 	- arguments: mkdir, -p, /usr/local/share/man/man1
+[46926] mkdir" started, arguments: "-p /usr/local/share/man/man1
+[46928] Done
+[46928] "Execute" as admin: true
+[46928] backup Symlinks operation: Execute
+[46928] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/energyplus.1, /usr/local/share/man/man1/energyplus.1, UNDOEXECUTE, rm, /usr/local/share/man/man1/energyplus.1
+[46928] Done
+[46928] perform Symlinks operation: Execute
+[46928] 	- arguments: ln, -sf, /home/antonio/code/SMeRL/EnergyPlus-24-1-0/energyplus.1, /usr/local/share/man/man1/energyplus.1, UNDOEXECUTE, rm, /usr/local/share/man/man1/energyplus.1
+[46929] ln" started, arguments: "-sf /home/antonio/code/SMeRL/EnergyPlus-24-1-0/energyplus.1 /usr/local/share/man/man1/energyplus.1
+[46931] Done
+[46933] Instalando componente Licenses
+[46934] backup Licenses operation: License
+[46934] 	- arguments:
+[46934] Done
+[46934] perform Licenses operation: License
+[46934] 	- arguments:
+[46934] Done
+[46937] Writing maintenance tool: "/home/antonio/code/SMeRL/EnergyPlus-24-1-0/maintenancetool.new"
+[46937] Escribiendo la herramienta de mantenimiento.
+[46965] Wrote permissions for maintenance tool.
+[46973] Maintenance tool hard restart: false.
+[46973] Instalación completada.
