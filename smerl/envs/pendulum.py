@@ -1,38 +1,29 @@
 import gymnasium as gym
 
-import sinergym
-
-from sinergym.utils.wrappers import (
-    LoggerWrapper,
-    NormalizeAction,
-    NormalizeObservation,
-    CSVLogger
-)
-
 from smerl.utils.aux import print_info
 
 
-class SinergymMetaEnv(gym.Env):
+class PendulumMetaEnv(gym.Env):
     """
-    Meta Sinergym environment.
+    Meta Pendulum environment.
     """
 
-    def __init__(self, env_ids):
+    def __init__(self, gravities):
         """
-        Class constructor for SinergymMetaEnv.
+        Class constructor for PendulumMetaEnv.
         Args:
-            env_ids (list): List of Sinergym environment IDs to initialize.
+            gravities (list): List of gravitational constants for each environment.
         """
 
-        self.env_ids = env_ids
-        self.n_envs = len(env_ids)
+        self.n_envs = len(gravities)
+        self.gravities = gravities
 
-        # Initialize multiple Sinergym environments
+        # Initialize multiple environments
         self.envs = self._init_envs()
 
     def reset(self):
         """
-        Resets all Sinergym environments and returns initial observations and infos.
+        Resets all environments and returns initial observations and infos.
         Returns:
             obs (list): List of initial observations from each environment.
             infos (list): List of info dictionaries from each environment.
@@ -41,17 +32,17 @@ class SinergymMetaEnv(gym.Env):
         # Reset all environments and collect initial observations
         obs, infos = [], []
 
-        for env in self.envs:
+        for i, env in enumerate(self.envs):
             observation, info = env.reset()
             obs.append(observation)
-            info['env_id'] = env.spec.id if env.spec else 'unknown'
+            info['gravity'] = self.gravities[i]
             infos.append(info)
 
         return obs, infos
 
     def step(self, actions):
         """
-        Steps through all Sinergym environments with the provided actions.
+        Steps through all environments with the provided actions.
         Args:
             actions (list): List of actions for each environment.
         Returns:
@@ -72,9 +63,9 @@ class SinergymMetaEnv(gym.Env):
         truncateds = []
         infos = []
 
-        for env, action in zip(self.envs, actions):
+        for i, (env, action) in enumerate(zip(self.envs, actions)):
             o, r, term, trunc, info = env.step(action)
-            info['env_id'] = env.spec.id if env.spec else 'unknown'
+            info['gravity'] = self.gravities[i]
 
             obs.append(o)
             rewards.append(r)
@@ -96,28 +87,13 @@ class SinergymMetaEnv(gym.Env):
 
     def _init_envs(self):
         """
-        Initializes multiple Sinergym environments. Adds default normalization and logging wrappers to each environment.
+        Initializes multiple environments with specified gravitational constants.
         Returns:
-            list: List of initialized Sinergym environments.
+            list: List of initialized environments.
         """
-        envs = [self._wrap_environment(gym.make(env_id))
-                for env_id in self.env_ids]
-        [print_info(f'Environment {env_id} has been created.')
-         for env_id in self.env_ids]
+        envs = []
+        for gravity in self.gravities:
+            envs.append(gym.make('Pendulum-v1', g=gravity))
+            print_info(f'Pendulum environment with gravity {gravity} has been created.')
 
         return envs
-
-    def _wrap_environment(self, env):
-        """
-        Wraps a Sinergym environment with additional wrappers.
-        Args:
-            env: The Sinergym environment to wrap.
-        Returns:
-            Wrapped environment.
-        """
-        env = LoggerWrapper(env)
-        env = NormalizeAction(env)
-        env = NormalizeObservation(env)
-        env = CSVLogger(env)
-
-        return env

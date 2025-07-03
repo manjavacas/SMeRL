@@ -1,17 +1,17 @@
 import gymnasium as gym
 
-from smerl.envs.sinergym import SinergymMetaEnv
+from smerl.envs.pendulum import PendulumMetaEnv
 
 def main():
 
-    env_ids = [
-        'Eplus-5zone-hot-continuous-stochastic-v1',
-        'Eplus-5zone-cool-continuous-stochastic-v1',
-        'Eplus-5zone-mixed-continuous-stochastic-v1'
+    gravities = [
+        9.81,
+        1.62,
+        24.79
     ]
 
     # Create meta environment
-    meta_env = SinergymMetaEnv(env_ids)
+    meta_env = PendulumMetaEnv(gravities)
     
     for ep in range(3):
 

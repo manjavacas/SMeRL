@@ -1,6 +1,12 @@
 from gymnasium.envs.registration import register
 
 register(
-    id='sinergym-v0',
+    id='meta-pendulum-v0',
+    entry_point='smerl.envs.pendulum:PendulumMetaEnv'
+)
+
+register(
+    id='meta-sinergym-v0',
     entry_point='smerl.envs.sinergym:SinergymMetaEnv'
 )
+
