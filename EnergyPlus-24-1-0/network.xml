@@ -14,5 +14,5 @@
         <Password></Password>
     </Http>
     <Repositories/>
-    <LocalCachePath>/root/.cache/qt-installer-framework/505bcc69-b128-3c32-9db2-8bf78f29f483</LocalCachePath>
+    <LocalCachePath>/home/antonio/.cache/qt-installer-framework/505bcc69-b128-3c32-9db2-8bf78f29f483</LocalCachePath>
 </Network>

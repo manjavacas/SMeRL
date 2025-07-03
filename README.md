@@ -2,17 +2,47 @@
 
 Meta Reinforcement Learning tests based on Sinergym environments.
 
-## Installation
+## 🚀 Setting up
 
-1) Download `EnergyPlus 24.1.0` from [here](https://github.com/NREL/EnergyPlus/releases/download/v24.1.0/EnergyPlus-24.1.0-9d7789a3ac-Linux-Ubuntu22.04-x86_64.run) and install it in the project root directory.
-2) Install dependencies using 
-
-```bash
-$ poetry install
-```
-
-3) Run with
+1. Download and install EnergyPlus:
 
 ```bash
-$ ./run.sh
+$ make download-eplus
+$ make install-eplus
 ```
+
+2. Check the current EnergyPlus version with:
+
+```bash
+$ make check-eplus
+```
+
+3. Install dependencies with Poetry:
+
+```bash
+$ make install
+```
+
+4. Open Poetry shell:
+
+```bash
+$ make shell
+```
+
+5. Check additional commands using:
+
+```bash
+$ make help
+```
+
+## ▶️ Running experiments
+
+Edit `scripts/run.py` for custom experimentation.
+
+Execute the following command:
+
+```bash
+$ make run
+```
+
+
