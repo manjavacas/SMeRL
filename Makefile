@@ -33,10 +33,6 @@ run-script: ## Execute the Python script in scripts/run.py
 	@echo "Running scripts/run.py..."
 	@cd $(SCRIPT_DIR) && $(PYTHON) run.py
 
-run-test: ## Execute the test script with Pendulum test environment
-	@echo "Setting up Pendulum test environment and running scripts/run_test.py..."
-	@$(POETRY) run python $(SCRIPT_DIR)/run_test.py
-
 clean-eplus: ## Clean all Eplus-* directories
 	@echo "Cleaning Eplus-* directories..."
 	@rm -rf $(EPLUS_DIRS)

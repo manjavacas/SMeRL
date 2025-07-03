@@ -62,7 +62,6 @@ class SinergymMetaEnv(gym.Env):
             infos (list): List of info dictionaries from each environment.
         """
 
-        assert self.envs is not None, "The environments must be initialized before stepping. Call reset() first."
         assert len(
             actions) == self.n_envs, "The number of actions must match the number of environments."
 
