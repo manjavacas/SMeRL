@@ -24,14 +24,14 @@ help: ## Show this help
 		awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
 run: ## Execute the main script with EnergyPlus environment
-	@echo "Setting up EnergyPlus environment and running scripts/run.py..."
+	@echo "Setting up EnergyPlus environment and running scripts/run_sinergym.py..."
 	@export EPLUS_PATH=$(EPLUS_PATH) && \
 	 export PYTHONPATH=$(EPLUS_PATH) && \
-	 $(POETRY) run python $(SCRIPT_DIR)/run.py
+	 $(POETRY) run python $(SCRIPT_DIR)/run_sinergym.py
 
-run-script: ## Execute the Python script in scripts/run.py
-	@echo "Running scripts/run.py..."
-	@cd $(SCRIPT_DIR) && $(PYTHON) run.py
+run-script: ## Execute the Python script in scripts/run_sinergym.py
+	@echo "Running scripts/run_sinergym.py..."
+	@cd $(SCRIPT_DIR) && $(PYTHON) run_sinergym.py
 
 clean-eplus: ## Clean all Eplus-* directories
 	@echo "Cleaning Eplus-* directories..."

@@ -2,7 +2,7 @@
 
 Meta Reinforcement Learning tests based on Sinergym environments.
 
-## 🚀 Setting up
+## 🛠 Setting up
 
 1. Download and install EnergyPlus:
 
@@ -35,9 +35,9 @@ $ make shell
 $ make help
 ```
 
-## ▶️ Running experiments
+## 🚀  Running experiments
 
-Edit `scripts/run.py` for custom experimentation.
+Edit `scripts/run_sinergym.py` for custom experimentation.
 
 Execute the following command:
 

@@ -1,11 +1,13 @@
+import random
 import gymnasium as gym
+import numpy as np
 
 from smerl.utils.aux import print_info
 
 
 class PendulumMetaEnv(gym.Env):
     """
-    Meta Pendulum environment.
+    Meta Pendulum environment with sampled transitions.
     """
 
     def __init__(self, gravities):
@@ -21,12 +23,12 @@ class PendulumMetaEnv(gym.Env):
         # Initialize multiple environments
         self.envs = self._init_envs()
 
-    def reset(self):
+        self.observation_space = self.envs[0].observation_space
+        self.action_space = self.envs[0].action_space
+
+    def reset(self, seed=None, options=None):
         """
-        Resets all environments and returns initial observations and infos.
-        Returns:
-            obs (list): List of initial observations from each environment.
-            infos (list): List of info dictionaries from each environment.
+        Resets all environments and returns a sampled observation and info.
         """
 
         # Reset all environments and collect initial observations
@@ -38,23 +40,15 @@ class PendulumMetaEnv(gym.Env):
             info['gravity'] = self.gravities[i]
             infos.append(info)
 
-        return obs, infos
+        # Return sampled observation and info
+        n_rand = random.randint(0, self.n_envs - 1)
 
-    def step(self, actions):
-        """
-        Steps through all environments with the provided actions.
-        Args:
-            actions (list): List of actions for each environment.
-        Returns:
-            obs (list): List of observations from each environment after stepping.
-            rewards (list): List of rewards from each environment.
-            terminateds (list): List of termination flags from each environment.
-            truncateds (list): List of truncation flags from each environment.
-            infos (list): List of info dictionaries from each environment.
-        """
+        return obs[n_rand], infos[n_rand]
 
-        assert len(
-            actions) == self.n_envs, "The number of actions must match the number of environments."
+    def step(self, action):
+        """
+        Steps through all environments y returns sampled outcomes.
+        """
 
         obs = []
         rewards = []
@@ -62,7 +56,7 @@ class PendulumMetaEnv(gym.Env):
         truncateds = []
         infos = []
 
-        for i, (env, action) in enumerate(zip(self.envs, actions)):
+        for i, env in enumerate(self.envs):
             o, r, term, trunc, info = env.step(action)
             info['gravity'] = self.gravities[i]
 
@@ -72,9 +66,14 @@ class PendulumMetaEnv(gym.Env):
             truncateds.append(trunc)
             infos.append(info)
 
-            # print_info(f'Pendulum environment with gravity {self.gravities[i]}. Reward received: {r}.')
+        # Randomly select one environment's results
+        n_rand = random.randint(0, self.n_envs - 1)
+        # print_info(f'Pendulum environment with gravity {self.gravities[n_rand]}. Reward received: {rewards[n_rand]}.')
+        
+        terminated = any(terminateds)
+        truncated = any(truncateds)
 
-        return obs, rewards, terminateds, truncateds, infos
+        return obs[n_rand], rewards[n_rand], terminated, truncated, infos[n_rand]
 
     def render():
         raise NotImplementedError("Render method is not implemented.")

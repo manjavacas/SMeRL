@@ -29,8 +29,11 @@ class SinergymMetaEnv(gym.Env):
 
         # Initialize multiple Sinergym environments
         self.envs = self._init_envs()
+        
+        self.observation_space = self.envs[0].observation_space
+        self.action_space = self.envs[0].action_space
 
-    def reset(self):
+    def reset(self, seed=None, options=None):
         """
         Resets all Sinergym environments and returns initial observations and infos.
         Returns:
